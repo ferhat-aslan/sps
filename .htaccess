@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.solar-panel-system.com$ [NC]
+RewriteRule ^(.*)$ http://solar-panel-system.com/$1 [R=301,L]
