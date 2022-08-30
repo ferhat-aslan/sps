@@ -58,7 +58,11 @@ img:hover {
   padding: 15px;
   height: 100vh;
 
-  border: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+}
+.article-paragraph {
+  line-height: 1.6;
+  font-size: 17px;
 }
 .home-content-middle {
   display: flex;
@@ -78,11 +82,12 @@ img:hover {
   padding: 15px;
   height: 100vh;
 
-  border: 1px solid #dedede;
+  border-left: 1px solid #dedede;
 }
 .home-middle-content-card {
   border-radius: 7px;
   display: flex;
+  flex: 2;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
@@ -127,6 +132,7 @@ img:hover {
 .card-image {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  flex: 1;
 }
 .card-button-row p {
   font-size: 13px;
