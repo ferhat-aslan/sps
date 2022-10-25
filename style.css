@@ -108,6 +108,7 @@ img:hover {
   font-size: 20px;
   font-weight: bold;
   width: 95%;
+  cursor: pointer;
 }
 .home-middle-content-card p {
   color: #6b6b6b;
